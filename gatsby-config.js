@@ -7,4 +7,8 @@
 module.exports = {
   /* Your site config here */
   plugins: [],
+  siteMetadata: {
+    title: `Vadim developer`,
+    description: `My own portfolio`,
+  },
 }
