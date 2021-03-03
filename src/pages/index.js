@@ -6,7 +6,7 @@ import styles from "../styles/home.module.css"
 export default function Home() {
   return (
     <Layout>
-      <section className={styles.header}>
+      <section className={styles.home}>
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
@@ -15,6 +15,7 @@ export default function Home() {
             My portfolio projects
           </Link>
         </div>
+        <img src="/banner.png" alt="Site banner" />
       </section>
     </Layout>
   )

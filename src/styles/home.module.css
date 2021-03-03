@@ -1,13 +1,13 @@
-.header {
+.home {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   align-items: center;
 }
-.header h2 {
+.home h2 {
   font-size: 4em;
 }
-.header h3 {
+.home h3 {
   font-size: 3em;
   font-weight: 400;
   margin-bottom: 20px;
@@ -19,4 +19,9 @@
   border-radius: 10px;
   margin-top: 20px;
   font-weight: 500;
+}
+
+.home img {
+  max-width: 100%;
+  height: auto;
 }
