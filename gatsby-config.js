@@ -26,5 +26,7 @@ module.exports = {
   siteMetadata: {
     title: `Vadim developer`,
     description: `My own portfolio`,
+    copyright: "This website is copyright 2021 Vadim",
+    contact: "vadiminsk90@gmail.com",
   },
 }
