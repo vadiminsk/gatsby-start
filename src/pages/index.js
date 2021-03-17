@@ -2,8 +2,9 @@ import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import styles from "../styles/home.module.css"
+import { StaticImage } from "gatsby-plugin-image"
 
-export default function Home() {
+export default function Home({ data }) {
   return (
     <Layout>
       <section className={styles.home}>
@@ -15,7 +16,12 @@ export default function Home() {
             My portfolio projects
           </Link>
         </div>
-        <img src="/banner.png" alt="Site banner" />
+        <StaticImage
+          src="../images/banner.png"
+          alt="Banner"
+          placeholder="blurred"
+          layout="constrained"
+        />
       </section>
     </Layout>
   )
